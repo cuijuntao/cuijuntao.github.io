@@ -4,13 +4,25 @@
   
   
   <entry>
-    <title>Hello World</title>
-    <link href="/2022/09/30/Hi%20%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E4%B8%80%E4%B8%AA%E5%B0%8F%E4%B8%96%E7%95%8C/"/>
-    <url>/2022/09/30/Hi%20%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E4%B8%80%E4%B8%AA%E5%B0%8F%E4%B8%96%E7%95%8C/</url>
+    <title>Hi 欢迎来到这个小世界!</title>
+    <link href="/2022/09/30/Hi%20%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E8%BF%99%E4%B8%AA%E5%B0%8F%E4%B8%96%E7%95%8C/"/>
+    <url>/2022/09/30/Hi%20%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E8%BF%99%E4%B8%AA%E5%B0%8F%E4%B8%96%E7%95%8C/</url>
     
     <content type="html"><![CDATA[<h2 id="一，安装Hexo"><a href="#一，安装Hexo" class="headerlink" title="一，安装Hexo"></a>一，安装Hexo</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;Hello!&quot;</span>)<br></code></pre></td></tr></table></figure><h2 id="二，再见"><a href="#二，再见" class="headerlink" title="二，再见"></a>二，再见</h2><p><img src="https://cdn.nlark.com/yuque/0/2022/jpeg/33535941/1664500441121-184ed529-8b79-43b5-bf7d-ef06623471f2.jpeg#clientId=uf2d90c58-4479-4&crop=0&crop=0&crop=1&crop=1&from=ui&id=u0db1f774&margin=%5Bobject%20Object%5D&name=8b79960047f3147ca793278ca76d37f3836ae21e2ece0c78a.jpg&originHeight=620&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2154387&status=done&style=none&taskId=uaa8c2cfe-0795-4c47-8976-fa60bd5e0d3&title=" alt="8b79960047f3147ca793278ca76d37f3836ae21e2ece0c78a.jpg"></p>]]></content>
     
     
+    <categories>
+      
+      <category>博客搭建</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Hexo</tag>
+      
+    </tags>
     
   </entry>
   

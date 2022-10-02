@@ -4,19 +4,6 @@
   
   
   <entry>
-    <title>hello</title>
-    <link href="/2022/10/02/hello/"/>
-    <url>/2022/10/02/hello/</url>
-    
-    <content type="html"><![CDATA[]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>Hi 欢迎来到这个小世界</title>
     <link href="/2022/10/02/Hi%20%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E8%BF%99%E4%B8%AA%E5%B0%8F%E4%B8%96%E7%95%8C%20/"/>
     <url>/2022/10/02/Hi%20%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E8%BF%99%E4%B8%AA%E5%B0%8F%E4%B8%96%E7%95%8C%20/</url>
@@ -27,6 +14,31 @@
     <categories>
       
       <category>博客搭建</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hi ��ӭ�������С����</title>
+    <link href="/2022/10/02/hello/"/>
+    <url>/2022/10/02/hello/</url>
+    
+    <content type="html"><![CDATA[<h2 id="һ����ӭ�����ҵĲ���"><a href="#һ����ӭ�����ҵĲ���" class="headerlink" title="һ����ӭ�����ҵĲ���"></a>һ����ӭ�����ҵĲ���</h2><p>���ȣ���ӭ�������ҵĸ��˲��ͣ�����������Կ����ҹ���ĳЩ֪ʶѧϰ���ĵã�ϣ�����԰ﵽ�㣬������ȡ���飬������в�ͬ�ļ��⣬Ҳ��ӭ�����Ը��ң����Թ�����δ���ţ���������Ŭ���У���һ����ѧϰ��<br />��Ȼ������Ҳ�кܶ�С��������δ�Լ��ĸ��˲��ͣ��ҵ������ǣ����������һ�����һЩ�����Ҵ���˲��͵�һЩ�����ĵã�ϣ����������������</p><h2 id="�������˲��ʹ��Hexo����"><a href="#�������˲��ʹ��Hexo����" class="headerlink" title="�������˲��ʹ��Hexo����"></a>�������˲��ʹ��Hexo����</h2><h3 id="1-j�ԣ�"><a href="#1-j�ԣ�" class="headerlink" title="1.ǰ�ԣ�"></a>1.ǰ�ԣ�</h3><p>���ڸ��˲��͵Ĵ�кܶ෽��ƽ̨�������Ҳ��õ���Hexoƽ̨���д����Ȼ���õĻ���Wordpress�ȵȣ���֮����ѡ��Hexo�����Ϊ���ڴ�֮ǰ������һ�������ҹ����Լ�����ռ����ӵĲ��ͣ���ҿ��Խ�ȥ�ο�һ�¡���ȻHexoҲ���Լ���ȱ�ݣ�����һ����̬�����ģ����ܹ��ںͷ����ߵĽ�������û��ôǿ�������˽⣩������û�취��˭�ÿ��������ء�</p><h3 id="2-��װGit"><a href="#2-��װGit" class="headerlink" title="2.��װGit:"></a>2.��װGit:</h3><p>Git��Ŀǰ���������Ƚ��ķֲ�ʽ�汾����ϵͳ��������Ч�����ٵĴ����Ӻ�С���ǳ������Ŀ�汾������Ҳ���������������hexo�������£��ϴ���GitHub�Ĺ��ߡ�(�����һ��ԭ�����ǳ��Ƽ���һ����ʦ���й���Git�Ľ��⣬���鿴һ�£���Ҳ�ڿ�����������Ҳ���Խ���һ��)<br />windows����git����������,Download git,���غ����һ��Git Bash�������й��ߣ��Ժ�������������ʹ��git�������Git Bashȷʵ���ã�<br />linux���������Linux�ǳ����ף���Ϊ�����git������linux�ϱ�д�ģ�ֻ��Ҫһ�д��루��ģ�˵ʵ���öණ����װ����Linux���ܷ��㣬��ΪLinux̫�ʺϿ����ˣ���Ҳ����Ϊʲô��ҪѧϰLinux��ԭ��</p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs routeros">sudo apt-<span class="hljs-built_in">get</span> install git<br></code></pre></td></tr></table></figure><p>��װ�ú󣬿�����git –version ���鿴һ�°汾��������������������ļ����Ҽ���ֱ�ӿ���Git Bash Here���ѡ��</p><h3 id="3-��װnodejs"><a href="#3-��װnodejs" class="headerlink" title="3.��װnodejs:"></a>3.��װnodejs:</h3><p>Hexo�ǻ���nodeJS��д�ģ�������Ҫ��װһ��nodeJs�������npm���ߡ�<br />windows��<a href="https://nodejs.org/en/download/">nodejs</a>ѡ��LTS�汾�����ˡ�<br />linux:</p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs routeros">sudo apt-<span class="hljs-built_in">get</span> install nodejs<br>sudo apt-<span class="hljs-built_in">get</span> install npm<br></code></pre></td></tr></table></figure><p>��װ��֮�����Ǻ���һЩ���ذ�ʲô������npm�����ˣ���Ȼ��Ϊ���������ȵ�ԭ���е���npm���ܻ�о��Ƚ��������Ҳ���԰�װһ���Ա�Դ�ģ�Ȼ���ں������¾Ϳ��԰�npm�滻��cnpm���У���Ȼ����û�и���̫����</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs awk">npm install -g cnpm --registry=https:<span class="hljs-regexp">//</span>registry.npm.taobao.org<br></code></pre></td></tr></table></figure><p>��Ұ�װ��֮����Լ��һ���Ƿ�װ�ɹ��Ͷ�Ӧ�汾�����windows�������Լ�����ڴ򿪾��У�</p><figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs crmsh"><span class="hljs-keyword">node</span> <span class="hljs-title">-v</span><br>npm -v<br></code></pre></td></tr></table></figure><p>windows��git��װ��󣬾Ϳ���ֱ��ʹ��git bash�����������ˣ������ϲ��ֱ�����ļ����´򿪣�ֱ�ӽ��и�Ŀ¼���������ʹ�ã��������ǻὲ���������Ǵ���ͳ��ֵ�һЩ���⣬ʹ��������ý����</p><h3 id="3-��װhexo"><a href="#3-��װhexo" class="headerlink" title="3.��װhexo"></a>3.��װhexo</h3><p>����������Լ�ϲ����λ�ô���һ���ļ���Blog��Ȼ��������ļ�����ֱ���Ҽ�git bash�򿪣�����ֱ��cd������ļ��У����а�װhexo</p><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs avrasm">npm install -g hexo-<span class="hljs-keyword">cli</span><br></code></pre></td></tr></table></figure><p>Ȼ����hexo -v���һ�¶�Ӧ�汾��</p><h3 id="4-hexo��ʼ��"><a href="#4-hexo��ʼ��" class="headerlink" title="4.hexo��ʼ��"></a>4.hexo��ʼ��</h3><p>��װ֮���أ����ǾͿ��Խ���hexo�ĳ�ʼ����ʹ���ˣ�����Ҫ��ʼ��һ��</p><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs csharp">hexo <span class="hljs-keyword">init</span> Blog<br></code></pre></td></tr></table></figure><p>���Blog���Ի������Լ���Ҫ�����֣�Ȼ���������ļ��У�����֮��Ҫ�ر�Git Bash���ڣ���Ȼ���´򿪿��ܲ���Blog��һ���ļ��У���������cd��������ã��Լ����ò����ļ�����ʱ�������ȿ�һ�´򿪵Ĵ���ʲô�ļ���ַ��</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">cd</span> Blog<br>npm install<br></code></pre></td></tr></table></figure><p>Ȼ���ļ����¾ͻ���ֶ�Ӧ�������ļ��ȵȣ����£�</p><blockquote><ul><li>node_modules: ������</li><li>public��������ɵ�ҳ��</li><li>scaffolds���������µ�һЩģ��</li><li>source����������������</li><li>themes������</li><li>** _config.yml: ���͵������ļ�**</li></ul></blockquote><p>Ȼ�����ǾͿ��Կ�һ�³�ʼ��hexo�����ˣ������Blog�ļ������Ҽ�����Git Bash����ڣ�</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">hexo g</span><br><span class="hljs-attribute">hexo s</span><br></code></pre></td></tr></table></figure><p>ע�⣬��ʱ�����������һ��Ӧ��������һ�䣨�����ڴ�����չʾ����INFO����ģ������������ϸ��������Ϣ������û�й�ϵ��</p><blockquote><p>INFO  Hexo is running at <a href="http://localhost:4000/">http://localhost:4000/</a> . Press Ctrl+C to stop.</p></blockquote><p>Ȼ���ʱ�㰴��ctrl���ҵ��������<a href="http://localhost:4000/">http://localhost:4000/</a> ���ӣ����ߴ������ֱ������<a href="http://localhost:4000/">http://localhost:4000/</a>���ܽ����ˣ����ܽ����ʼHexo�����ˣ�ctrl+c���Թرգ�<br />���������ʾ��<br /><img src="https://cdn.nlark.com/yuque/0/2022/png/33535941/1664630930204-90c02f3c-a123-47b2-b72e-5191519faeab.png#clientId=u38d36bc8-6619-4&crop=0&crop=0&crop=1&crop=1&from=ui&id=u14c961c8&margin=%5Bobject%20Object%5D&name=Bolg_1_hexo.png&originHeight=217&originWidth=885&originalType=binary&ratio=1&rotation=0&showTitle=false&size=135626&status=done&style=none&taskId=u6866e527-00b7-4463-8aa9-7a0cb441e6d&title=" alt="Bolg_1_hexo.png"></p><h3 id="5-Github�������˲ֿ�"><a href="#5-Github�������˲ֿ�" class="headerlink" title="5.Github�������˲ֿ�:"></a>5.Github�������˲ֿ�:</h3>]]></content>
+    
+    
+    <categories>
+      
+      <category>���ʹ</category>
       
     </categories>
     

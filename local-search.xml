@@ -4,31 +4,6 @@
   
   
   <entry>
-    <title>Hi 欢迎来到这个小世界</title>
-    <link href="/2022/10/02/Hi%20%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E8%BF%99%E4%B8%AA%E5%B0%8F%E4%B8%96%E7%95%8C%20/"/>
-    <url>/2022/10/02/Hi%20%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E8%BF%99%E4%B8%AA%E5%B0%8F%E4%B8%96%E7%95%8C%20/</url>
-    
-    <content type="html"><![CDATA[<h2 id="一、欢迎来到我的博客"><a href="#一、欢迎来到我的博客" class="headerlink" title="一、欢迎来到我的博客"></a>一、欢迎来到我的博客</h2><p>首先，欢迎你来到我的个人博客，在这里你可以看到我关于某些知识学习的心得，希望可以帮到你，从中吸取经验，如果你有不同的见解，也欢迎你留言给我（留言功能暂未开放，博主正在努力中），一起交流学习！<br />当然，相信也有很多小伙伴好奇如何搭建自己的个人博客（我当初就是），在这里我会留下一些关于我搭建个人博客的一些经验心得，希望对你有所帮助。</p><h2 id="二，个人博客搭建（Hexo）："><a href="#二，个人博客搭建（Hexo）：" class="headerlink" title="二，个人博客搭建（Hexo）："></a>二，个人博客搭建（Hexo）：</h2><h3 id="1-前言："><a href="#1-前言：" class="headerlink" title="1.前言："></a>1.前言：</h3><p>关于个人博客的搭建有很多方法平台，这里我采用的是Hexo平台进行搭建，当然好用的还有Wordpress等等，我之所以选用Hexo搭建是因为我在此之前发现了一个符合我关于自己梦想空间样子的博客，大家可以进去参考一下。当然Hexo也有自己的缺陷，它是一个静态管理的，可能关于和访问者的交互方面没那么强（个人了解），不过没办法，谁让看对眼了呢。</p><h3 id="2-安装Git"><a href="#2-安装Git" class="headerlink" title="2.安装Git:"></a>2.安装Git:</h3><p>Git是目前世界上最先进的分布式版本控制系统，可以有效、高速的处理从很小到非常大的项目版本管理。也就是用来管理你的hexo博客文章，上传到GitHub的工具。(这个是一个原博主非常推荐的一个老师进行关于Git的讲解，建议看一下，我也在看，后续我们也可以交流一下)<br />windows：到git官网上下载,Download git,下载后会有一个Git Bash的命令行工具，以后就用这个工具来使用git。（这个Git Bash确实好用）<br />linux：这个对于Linux非常容易，因为最早的git就是在linux上编写的，只需要一行代码（真的，说实话好多东西安装对于Linux都很方便，因为Linux太适合开发了，这也是我为什么想要学习Linux的原因）</p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs routeros">sudo apt-<span class="hljs-built_in">get</span> install git<br></code></pre></td></tr></table></figure><p>安装好后，可以用git –version 来查看一下版本，并且我们在桌面或者文件夹右键能直接看到Git Bash Here这个选项</p><h3 id="3-安装nodejs"><a href="#3-安装nodejs" class="headerlink" title="3.安装nodejs:"></a>3.安装nodejs:</h3><p>Hexo是基于nodeJS编写的，所以需要安装一下nodeJs和里面的npm工具。<br />windows：<a href="https://nodejs.org/en/download/">nodejs</a>选择LTS版本就行了。<br />linux:</p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs routeros">sudo apt-<span class="hljs-built_in">get</span> install nodejs<br>sudo apt-<span class="hljs-built_in">get</span> install npm<br></code></pre></td></tr></table></figure><p>安装完之后我们后续一些下载包什么就是用npm命令了，当然因为国内限流等等原因，有的用npm可能会感觉比较慢，大家也可以安装一下淘宝源的，然后在后续文章就可以把npm替换成cnpm就行（虽然个人没有感受太大差别）</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs awk">npm install -g cnpm --registry=https:<span class="hljs-regexp">//</span>registry.npm.taobao.org<br></code></pre></td></tr></table></figure><p>大家安装完之后可以检查一下是否安装成功和对应版本（这个windows就是在自己命令窗口打开就行）</p><figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs crmsh"><span class="hljs-keyword">node</span> <span class="hljs-title">-v</span><br>npm -v<br></code></pre></td></tr></table></figure><p>windows在git安装完后，就可以直接使用git bash来敲命令行了，这个我喜欢直接在文件夹下打开，直接进行根目录下命令（建议使用，后续我们会讲到关于我们搭建博客出现的一些问题，使用这个更好解决）</p><h3 id="3-安装hexo"><a href="#3-安装hexo" class="headerlink" title="3.安装hexo"></a>3.安装hexo</h3><p>你可以先在自己喜欢的位置创建一个文件夹Blog，然后在这个文件夹下直接右键git bash打开（或者直接cd到这个文件夹）进行安装hexo</p><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs avrasm">npm install -g hexo-<span class="hljs-keyword">cli</span><br></code></pre></td></tr></table></figure><p>然后用hexo -v检查一下对应版本。</p><h3 id="4-hexo初始化"><a href="#4-hexo初始化" class="headerlink" title="4.hexo初始化"></a>4.hexo初始化</h3><p>安装之后呢，我们就可以进行hexo的初始化和使用了，首先要初始化一下</p><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs csharp">hexo <span class="hljs-keyword">init</span> Blog<br></code></pre></td></tr></table></figure><p>这个Blog可以换成你自己想要的名字，然后进入这个文件夹（建立之后不要关闭Git Bash窗口，不然重新打开可能不在Blog上一级文件夹，导致下面cd命令不起作用，自己在用操作文件命令时，可以先看一下打开的处于什么文件地址）</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">cd</span> Blog<br>npm install<br></code></pre></td></tr></table></figure><p>然后文件夹下就会出现对应的配置文件等等，如下：</p><blockquote><ul><li>node_modules: 依赖包</li><li>public：存放生成的页面</li><li>scaffolds：生成文章的一些模板</li><li>source：用来存放你的文章</li><li>themes：主题</li><li>** _config.yml: 博客的配置文件**</li></ul></blockquote><p>然后我们就可以看一下初始的hexo界面了，在你的Blog文件夹下右键进入Git Bash命令窗口：</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">hexo g</span><br><span class="hljs-attribute">hexo s</span><br></code></pre></td></tr></table></figure><p>注意，此时你的命令窗口最后一行应该是这样一句（并且在此上面展示都是INFO无误的，如果报错请仔细看报错信息，警告没有关系）</p><blockquote><p>INFO  Hexo is running at <a href="http://localhost:4000/">http://localhost:4000/</a> . Press Ctrl+C to stop.</p></blockquote><p>然后此时你按着ctrl并且点上面这个<a href="http://localhost:4000/">http://localhost:4000/</a> 链接（或者打开浏览器直接输入<a href="http://localhost:4000/">http://localhost:4000/</a>就能进入了）就能进入初始Hexo博客了（ctrl+c可以关闭）<br />大概如下所示：<br /><img src="https://cdn.nlark.com/yuque/0/2022/png/33535941/1664630930204-90c02f3c-a123-47b2-b72e-5191519faeab.png#clientId=u38d36bc8-6619-4&crop=0&crop=0&crop=1&crop=1&from=ui&id=u14c961c8&margin=%5Bobject%20Object%5D&name=Bolg_1_hexo.png&originHeight=217&originWidth=885&originalType=binary&ratio=1&rotation=0&showTitle=false&size=135626&status=done&style=none&taskId=u6866e527-00b7-4463-8aa9-7a0cb441e6d&title=" alt="Bolg_1_hexo.png"></p><h3 id="5-Github创建个人仓库"><a href="#5-Github创建个人仓库" class="headerlink" title="5.Github创建个人仓库:"></a>5.Github创建个人仓库:</h3>]]></content>
-    
-    
-    <categories>
-      
-      <category>博客搭建</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Hexo</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>Hi ��ӭ�������С����</title>
     <link href="/2022/10/02/hello/"/>
     <url>/2022/10/02/hello/</url>
